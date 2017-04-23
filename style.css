@@ -1,0 +1,144 @@
+body {margin: 0;padding: 0;font-family: sans-serif;}
+a {color: inherit;text-decoration: none;}
+
+@font-face{
+	font-family: 'Proxima_Nova';
+	src: url('fonts/Proxima_Nova.otf');
+}
+
+@font-face{
+	font-family: 'Roboto';
+	src: url('fonts/Roboto.ttf');
+}
+
+.handle {float: right;display: none;cursor: pointer;padding: 10px 10px;font-size: 18px;}
+
+
+nav {position:fixed;z-index: 999;background: #fff;width: 100%;margin: 0;}
+.wrapper-nav {width: 80%;margin: 0 auto}
+nav ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;float: right;transition: 0.5s}
+nav ul:after {content: ""; display: block;clear: both;}
+nav ul li {float: left;padding: 30px 20px;opacity: 0.7;}
+nav .text img {width: 50px;float: left;padding-right: 15px;margin: 0}
+nav .text p {float: left;margin: 0;padding: 20px 0px}
+nav .text {float: left;padding: 10px 20px;}
+nav ul li a {transition: 0.2s all}
+nav ul li a:hover {color:#135363;border-bottom: 2px solid;padding-bottom: 28px}
+
+.wrapper-header {width: 80%;margin: 0 auto} 
+header {background-image: url(img/header.jpg);width: 100%;height: 617px;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;width: 100%;}
+header .text {padding-top: 250px;color: #fff;margin: 0;text-align: center;}
+header .text h1 {margin: 0;font-family: 'Roboto';font-size: 45px;font-weight: 200}
+header .text p {font-family: 'Roboto';font-size: 17px;font-weight: 200;margin-top: 0}
+
+header .box p a{color: #fff; border: solid 2px #fff;padding: 10px 15px;font-size: 14px;background: #3C4448;}
+
+
+
+.quote {padding: 10px;background: #135363;position: relative;right: 0;left:0;text-align: center;color: #fff}
+.quote h3 {;font-size: 21px;margin: 0;font-weight: 200;font-family: 'Proxima_Nova'}
+.quote p {margin:0;padding: 2px 0px}
+
+.profile {margin-top: 30px;}
+.wrapper-profile {width: 80%;margin: 0 auto} 
+.profile img {margin: 0 auto;display: block;}
+.profile h2 {margin: 0;text-align: center;color: #404040;font-size: 30px}
+.profile button {border: solid 1px #135363;padding: 12px 14px;background:#135363; border-radius: 5px;font-size: 15px;color: #fff;cursor: pointer;transition: 0.3s;
+					display: block;margin: 0 auto}
+.profile p {opacity: 0.5}				
+.profile button:hover {background: #1A738A;border: solid 1px #1A738A;}
+
+.study {margin-top: 100px;background: #F7F7F7;padding: 40px 0px}
+.wrapper-study {width: 80%;margin: 0 auto}
+.study h1 {text-align: center;color: #404040;padding-bottom: 10px;font-size: 30px}
+.study .rows-study .col {width: 25%;float: left;box-sizing: border-box;padding: 30px;transition: 0.4s}
+.study .rows-study .col img {width: 30%;display: block;margin: 0 auto;}
+.study .rows-study .col h4 {opacity: 0.6;text-align: center;}
+
+.study .rows-study .col:hover {box-shadow: 1px 1px 8px #ccc;}
+.study .rows-study .col h4 a:hover {color:#1A738A }
+
+.info {margin: 20px}
+.wrapper-info {width: 80%;margin:0 auto;}
+.info h1 {text-align: center;color: #404040;padding-bottom: 10px;font-size: 30px}
+
+.info .rows-info ul {list-style-type: square;}
+.info .rows-info ul li  {padding: 25px 0px}
+.info .rows-info ul li  i {color: #404040}
+
+.info .rows-info ul li  h3 {color: #404040;margin: 0;display: inline-block;}
+.info .rows-info ul li  .sender {margin: 0;opacity: 0.4;}
+.info .rows-info ul li  p {margin: 0;opacity: 0.6;font-size: 14px}
+.info .rows-info ul li  button {border: solid 1px #1A738A;padding: 5px;background:#1A738A; border-radius: 4px;font-size: 15px;color: #fff;cursor: pointer;transition: 0.3s;
+								margin-top: 5px ;}
+.info .rows-info ul li  button:hover {background: #135363;border: solid 1px #135363;}
+
+.contact {background-image:url(img/DSC_0089.jpg);padding: 40px 0px;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;color: #fff ;}
+.contact img {width: 15%; margin: 0 auto;display: block;padding: 28px 0px}
+.wrapper-kontak {width: 80%;margin: 0 auto}
+.contact p {margin: 0;display:block;padding-top: 4px;text-align: center;}
+.contact p a {color: #2DC5EB;transition: 0.6s}
+.contact p a:hover {color: #fff}
+
+.wrapper-hubungi {width: 80%;margin: 0 auto}
+.hubungi {background:#1A738A;padding: 25px 0px }
+.hubungi h1 {text-align: center;color: #fff;font-size: 35px}
+.hubungi input[type="text"] {padding: 10px;border-radius: 5px;border: solid 1px #ccc;width: 280px;height: 30px;display: block;margin: 0 auto}
+.hubungi textarea {width: 280px;display: block;margin: 0 auto;margin-top: 20px;border-radius: 5px;border: solid 1px #ccc;height: 80px;padding: 10px}
+.hubungi button  {border: solid 1px #fff;padding: 5px;background:#fff; border-radius: 4px;font-size: 15px;color: #1A738A;cursor: pointer;transition: 0.3s;
+				  display: block;margin: 0 auto;margin-top: 10px}
+.hubungi button:hover {background: #1A738A;border: solid 1px #fff;color: #fff}
+
+.kerja {margin-top: 10px}
+.wrapper-kerja {width: 80%;margin: 0 auto}
+.kerja h1 {font-size: 28px;color: #404040;text-align: center;margin: 0;padding-bottom: 15px;padding-top: 35px}
+.kerja .rows-kerja .col{width:16%;float: left; text-align: center;box-sizing: border-box;padding: 15px}
+.kerja img {margin: 0 auto;display: block;opacity: 0.4;width: 100%}
+.kerja img:hover {opacity: 0.9}
+.kerja hr {color: #ccc;margin: 20px 0px;opacity: 0.4 }
+
+.gallery {margin-top: 60px}
+.gallery h1 {text-align: center;color:#404040; font-size: 35px}
+.gallery .rows-gallery img {width: 33.3333%; height: 230px;float: left;opacity:0.8; filter: blur(0.8px);transition: 0.5s;display: block;}
+.gallery .rows-gallery img:hover {filter: blur(0px);opacity: 1;}
+
+
+footer {padding: 0px 0px;padding-bottom: 10px;position: relative;}
+footer hr {color: #ccc; opacity: 0.6;}
+.wrapper-footer {margin: 0 auto; width: 40%} 
+
+footer h4 {text-align: center;padding : 0px 0px;text-transform: uppercase;font-weight: 200}
+footer .copyright {opacity: 0.6;}
+footer .smk {color: #135363;font-weight: 600;}
+footer .color {background:#135363;width: 100%;padding: 3px 0px;position: absolute; bottom: 0 ;left: 0;right: 0}
+footer a {transition: 0.5s;opacity: 0.7}
+footer a:hover {color: #135363;opacity: 1}
+
+
+.head-tentang {background: #F2F0F0;text-align: center;padding: 50px 0px}
+.wrapper-head-tentang {width: 80%;margin: 0 auto}
+.head-tentang h1 {margin: 0;color: #404040}
+.head-tentang p {margin: 0;opacity: 0.6}
+.head-tentang .text {padding: 30px 0px;padding-top: 100px}
+
+.wrapper-content {width: 80%;margin: 0 auto}
+.content h1 {font-size: 27px;color: #404040;font-weight: 400}
+.content p {opacity: 0.6}
+.content ol {opacity: 0.6;}
+
+.wrapper-content-berita {width: 80%;margin: 0 auto}
+.content-berita {text-align: center;color: #404040;opacity: 0.7;padding: 80px 0px}
+.content-berita h4 a {color: #135363;transition: 0.6s}
+.content-berita h4 a:hover {text-decoration: none;color: #404040;text-decoration: underline}
+
+.wrapper-content-gallery {width: 80%;margin: 0 auto}
+.content-gallery .col {width: 33.333%;float: left;box-sizing: border-box;padding: 15px;transition: 0.5s}
+.content-gallery .col img {width: 100%;height: 230px;opacity: 0.7;transition: 0.5s}
+.content-gallery .col img:hover {opacity: 1}
+.content-gallery .col:hover {box-shadow: 1px 1px 8px #ccc; }
+
+.wrapper-problem {width: 80%;margin: 0 auto}
+.problem h1 {text-align: center;padding-top: 100px;opacity: 0.7}
+.problem p {margin: 0;opacity: 0.5}
+.problem a {text-decoration: underline;color:#135363;transition: 0.6s }
+.problem a:hover{color: #000}
